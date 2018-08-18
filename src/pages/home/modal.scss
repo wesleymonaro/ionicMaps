@@ -1,0 +1,28 @@
+modal-page {
+    .buttons-box {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+    .button {
+        flex: 1;
+    }
+    .input {
+        border: 1px solid #DDD;
+        border-radius: 3px;
+        padding: 0 5px;
+        margin: 5px 10px;
+    }
+    .error {
+        padding: 5px;
+        margin: 5px 10px;
+        color: red;
+        background-color: pink;
+        text-align: center;
+    }
+}
+
+.popover-ios .popover-content {
+    width: 250px;
+    left: 39.5px;
+}

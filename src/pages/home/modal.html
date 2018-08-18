@@ -1,0 +1,9 @@
+<ion-content>
+  <ion-list-header>Adicionar novo local</ion-list-header>
+  <ion-input type="text" class="input" placeholder="Usuário no Github" [(ngModel)]="username"></ion-input>
+  <!-- <p class="error" *ngIf="error">{{error}}</p> -->
+  <div class="buttons-box">
+    <button class="button" color="light" ion-button (click)="close()">Cancelar</button>
+    <button class="button" color="secondary" ion-button (click)="save()">Salvar</button>
+  </div>
+</ion-content>
